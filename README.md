@@ -1,6 +1,6 @@
 # request-header-parser-ms
 
-An app that listens for a date param and returns a JSON object of that date in natural language and unix form.
+An app that reads your browser and returns a JSON object with your ip-address, language and software.
 
 ## User Stories
 

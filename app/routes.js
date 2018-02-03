@@ -5,5 +5,7 @@ const express       = require('express'),
 
 
 router.get('/',           mainController.showHome);
+router.get('/api/whoami', eventsController.showWhoAm);
+
 
 module.exports = router;

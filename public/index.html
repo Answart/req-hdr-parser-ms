@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Request Header Parser Microservice</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="Request Header Parser Microservice">
+    <meta name="description" content="Timestamp microservice">
     <meta name="author" content="answart">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,7 +15,46 @@
 </head>
 <body>
 
-  <div>Hi there!</div>
+    <!-- header -->
+    <header id="site-header">
+        <div class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="/" class="navbar-brand">Request Header Parser Microservice</a>
+                    <p>A javascript app that reads your browser and returns a JSON object with your <strong>ip-address</strong>, <strong>language</strong> and  <strong>software</strong>.
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main id="site-main">
+      <div class="container">
+        <h2>User stories:</h2>
+        <blockquote>
+          <ol>
+            <li>I can get the IP address, language and operating system for my browser.</li>
+          </ol>
+        </blockquote>
+
+        <h2>Example query:</h2>
+        <code>https://answart-rhp-ms.herokuapp.com/api/whoami</code>
+
+        <h2>Output</h2>
+        <code>{"ip-address":"xxx.xxx.xxx.xxx","language":"en-US","software":""Macintosh; Intel Mac OS X 10.13; rv:58.0""}</code>
+
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer id="site-footer">
+      &copy; Alexandra Swart
+      <p>
+        <a href="mailto:answart@sbcglobal.net.com"><span class="fa fa-envelope"></span></a>
+        <a href="https://github.com/answart" target="_blank"><span class="fa fa-github"></span></a>
+        <a href="https://www.linkedin.com/in/alexandra-swart-582a1235/"><span class="fa fa-linkedin-square"></span></a>
+      </p>
+    </footer>
 
 </body>
 </html>
